@@ -1,0 +1,9 @@
+.container-fluid{
+    background-color: #fff;
+    padding: 5%;
+    margin-top: 0%;
+}
+.header{
+    padding: 35px;
+    border-radius: 23px;
+}
