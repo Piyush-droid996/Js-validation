@@ -1,123 +1,168 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
-        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
-        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="index.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+      integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="index.css" />
     <title>Document</title>
-</head>
+  </head>
 
-<body>
+  <body>
+    <h1>collab try</h1>
     <div class="container-fluid">
-        <div class="row">
-            <h1 class="text-success text-center">Registration form using Validation</h1>
-            <div class="col-lg-8 m-auto d-block bg-light header">
-                <form action="#" onsubmit="return validation()">
-                    <div class="form-group">
-                        <label>Username:</label>
-                        <input type="text" name="user" class="form-control" id="user">
-                        <span id="user-error" class="text-danger" style="font-weight: 300;"></span>
-                    </div>
-                    <div class="form-group">
-                        <label>Password:</label>
-                        <input type="text" name="pass" class="form-control" id="pass">
-                        <span id="password-error" class="text-danger" style="font-weight: 300;"></span>
-                    </div>
-                    <div class="form-group">
-                        <label>Confirm Password:</label>
-                        <input type="text" name="Confirmpass" class="form-control" id="conpass">
-                        <span id="confirm-password-error" class="text-danger" style="font-weight: 300;"></span>
-                    </div>
-                    <div class="form-group">
-                        <label for="mobile-number">Mobile Number:</label>
-                        <input type="text" name="mobile" class="form-control" id="mobile-number">
-                        <span id="mobile-error" class="text-danger" style="font-weight: 300;"></span>
-                    </div>
-                    <div class="form-group">
-                        <label>Email:</label>
-                        <input type="text" name="email" class="form-control" id="email">
-                        <span id="email-error" class="text-danger" style="font-weight: 300;"></span>
-                    </div>
-                    <div class="form-group mt-2">
-                        <input type="submit" name="submit" value="submit" class="btn btn-success">
-                    </div>
-                </form>
+      <div class="row">
+        <h1 class="text-success text-center">
+          Registration form using Validation
+        </h1>
+        <div class="col-lg-8 m-auto d-block bg-light header">
+          <form action="#" onsubmit="return validation()">
+            <div class="form-group">
+              <label>Username:</label>
+              <input type="text" name="user" class="form-control" id="user" />
+              <span
+                id="user-error"
+                class="text-danger"
+                style="font-weight: 300"
+              ></span>
             </div>
+            <div class="form-group">
+              <label>Password:</label>
+              <input type="text" name="pass" class="form-control" id="pass" />
+              <span
+                id="password-error"
+                class="text-danger"
+                style="font-weight: 300"
+              ></span>
+            </div>
+            <div class="form-group">
+              <label>Confirm Password:</label>
+              <input
+                type="text"
+                name="Confirmpass"
+                class="form-control"
+                id="conpass"
+              />
+              <span
+                id="confirm-password-error"
+                class="text-danger"
+                style="font-weight: 300"
+              ></span>
+            </div>
+            <div class="form-group">
+              <label for="mobile-number">Mobile Number:</label>
+              <input
+                type="text"
+                name="mobile"
+                class="form-control"
+                id="mobile-number"
+              />
+              <span
+                id="mobile-error"
+                class="text-danger"
+                style="font-weight: 300"
+              ></span>
+            </div>
+            <div class="form-group">
+              <label>Email:</label>
+              <input type="text" name="email" class="form-control" id="email" />
+              <span
+                id="email-error"
+                class="text-danger"
+                style="font-weight: 300"
+              ></span>
+            </div>
+            <div class="form-group mt-2">
+              <input
+                type="submit"
+                name="submit"
+                value="submit"
+                class="btn btn-success"
+              />
+            </div>
+          </form>
         </div>
+      </div>
     </div>
     <script>
-        function validation() {
-            var user = document.getElementById("user").value;
-            var mobile = document.getElementById("mobile-number").value;
-            var mobileNumber = parseInt(mobile);
-            var password = document.getElementById("pass").value;
-            var Confirmpass = document.getElementById("conpass").value;
-            var email = document.getElementById("email").value
+      function validation() {
+        var user = document.getElementById("user").value;
+        var mobile = document.getElementById("mobile-number").value;
+        var mobileNumber = parseInt(mobile);
+        var password = document.getElementById("pass").value;
+        var Confirmpass = document.getElementById("conpass").value;
+        var email = document.getElementById("email").value;
 
-            // Username validation
-            if (user == "") {
-                document.getElementById('user-error').innerHTML = "Please fill the input field";
-                return false;
-            } else if (!isNaN(user)) {
-                alert("Error: Please enter text only in the Username field");
-                return false;
-            }
-
-            // Mobile number validation
-            if (isNaN(mobileNumber)) {
-                document.getElementById('mobile-error').innerHTML = "Please Fill Numeric Digits Only"
-                return false;
-            }
-            else if (mobile.length !== 10) {
-                document.getElementById('mobile-error').innerHTML = "Please fill the correct 10-digit mobile number";
-                return false;
-            }
-
-            // Password validation
-            if (password == "") {
-                document.getElementById('password-error').innerHTML = "Please fill the input field";
-                return false;
-            }
-            else if (password.length < 8) {
-                document.getElementById('password-error').innerHTML = "Password length  must be 8 characters";
-                return false;
-            }
-            // Confirm Pass
-
-            if (Confirmpass != password) {
-                document.getElementById('confirm-password-error').innerHTML = "Your Both password doesnot match"
-                return false
-            }
-
-            else if (confirmpass.length <= 8) {
-                document.getElementById('confirm-password-error').innerHTML = "Password length  must be 8 characters";
-                return false;
-            }
-            // Email id Validation
-            var emailregx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-            if (!email.match(emailregx)) {
-                document.getElementById("email-error").innerHTML = "Please Fill Correct email";
-                return false;
-            }
-
-
-
+        // Username validation
+        if (user == "") {
+          document.getElementById("user-error").innerHTML =
+            "Please fill the input field";
+          return false;
+        } else if (!isNaN(user)) {
+          alert("Error: Please enter text only in the Username field");
+          return false;
         }
 
+        // Mobile number validation
+        if (isNaN(mobileNumber)) {
+          document.getElementById("mobile-error").innerHTML =
+            "Please Fill Numeric Digits Only";
+          return false;
+        } else if (mobile.length !== 10) {
+          document.getElementById("mobile-error").innerHTML =
+            "Please fill the correct 10-digit mobile number";
+          return false;
+        }
 
+        // Password validation
+        if (password == "") {
+          document.getElementById("password-error").innerHTML =
+            "Please fill the input field";
+          return false;
+        } else if (password.length < 8) {
+          document.getElementById("password-error").innerHTML =
+            "Password length  must be 8 characters";
+          return false;
+        }
+        // Confirm Pass
+
+        if (Confirmpass != password) {
+          document.getElementById("confirm-password-error").innerHTML =
+            "Your Both password doesnot match";
+          return false;
+        } else if (confirmpass.length <= 8) {
+          document.getElementById("confirm-password-error").innerHTML =
+            "Password length  must be 8 characters";
+          return false;
+        }
+        // Email id Validation
+        var emailregx = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+        if (!email.match(emailregx)) {
+          document.getElementById("email-error").innerHTML =
+            "Please Fill Correct email";
+          return false;
+        }
+      }
     </script>
-</body>
-
+  </body>
 </html>
